@@ -1,0 +1,14 @@
+$darkBlue:rgb(28, 37, 161);
+@mixin containerMix {
+  min-height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@mixin transformar($propiedad) {
+  -webkit-transform: $propiedad;
+  -ms-transform: $propiedad;
+  transform: $propiedad;
+}

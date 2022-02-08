@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buscador renders properly 1`] = `
+<div role="group"><label for="input-live" class="test">Búsqueda:</label>
+  <b-form-input id="input-live" aria-describedby="input-live-help input-live-feedback" placeholder="Ingresa nombre de repositorio" trim=""></b-form-input>
+  <b-form-invalid-feedback id="input-live-feedback">
+    Escribe al menos 3 letras
+  </b-form-invalid-feedback>
+  <b-form-text id="input-live-help">Repositorios.</b-form-text>
+  <!---->
+</div>
+`;
